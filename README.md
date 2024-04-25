@@ -7,15 +7,15 @@ Githubからmfapy ( https://github.com/hiroyukiyamamoto/mfapy )をクローンする
 
 Anaconda Promptでmfapyをカレントディレクトリにして以下のコマンドを順番に実行
 
-conda create -n mfapy python=3.6 numpy scipy matplotlib=2.1 joblib
+	conda create -n mfapy python=3.6 numpy scipy matplotlib=2.1 joblib
 
-conda activate mfapy
+	conda activate mfapy
 
-conda install -c conda-forge nlopt
+	conda install -c conda-forge nlopt
 
-conda install -c anaconda mkl-service 
+	conda install -c anaconda mkl-service 
 
-python setup.py install
+	python setup.py install
 
 インストールテスト結果を確認
 
